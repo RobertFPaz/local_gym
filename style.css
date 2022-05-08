@@ -1,0 +1,88 @@
+.navbar{
+    padding: 0 15px !important;
+}
+#masthead{
+ background-image: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), url("/images/homepage.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-color: black;
+ min-height: 100vh;
+} 
+ a, .nav-link, .light-blue{
+    color: lightblue !important;
+} 
+a{
+    font-size: 1.4em;
+}
+.navbar-toggler{
+    background-color: rgba(173, 216, 230, 0.8);
+}
+.text-shadow{
+    text-shadow: 2px 2px 3px rgb(0,0,0);
+}
+.salutations{
+    font-family: 'Major Mono Display', monospace;
+}
+.button{
+    background-color: rgb(173, 216, 230);
+}
+.sign-in, .services{
+    background-image: url("/images/meditate.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+.form-container{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 700px;
+}
+.login-button{
+    width: 222px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: outset;
+    border-top-color:aliceblue;
+    border-right-style: outset;
+    border-right-color:antiquewhite;
+    border-bottom-style: outset;
+    border-bottom-color:antiquewhite;
+    border-left-style: outset;
+    border-left-color:aliceblue;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: rgb(173, 216, 230);
+    color: black
+}
+.login-button:hover{
+    color: white;
+    background-color: rgb(33, 37, 41);
+}
+.signout-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255,255,255,0)), url("/images/good_vibes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+}
+.about{
+    background-color: rgb(173, 216, 230);
+    background-image: linear-gradient( rgb(173, 216, 230), rgba(33, 37, 41, 0.6));
+}
+.about-container{
+    margin-top: 90px;
+}
+ .carousel-inner ,.carousel-inner .carousel-item{
+    max-width: 640px;
+    border-radius: 10px;
+}
